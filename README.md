@@ -485,5 +485,7 @@ If you want to take control of your device's network traffic without compromisin
 ---
 
 **⭐ Star this repo if you find it useful!**
+# Have you found a bug? any opinion do you have? let me know:
+# t.me/SClAmir
 
 [🇮🇷 نسخه فارسی (Persian)](README.fa.md)
