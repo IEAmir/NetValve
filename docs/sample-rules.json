@@ -1,0 +1,127 @@
+{
+  "settings": {
+    "selectionMode": "ONLY_SELECTED",
+    "defaultDownload": {
+        "value": 0,
+        "unit": "MBPS",
+        "enabled": false
+    },
+    "defaultUpload": {
+        "value": 256,
+        "unit": "KB_S",
+        "enabled": true
+    },
+    "ipv6Mode": "RELAY",
+    "exemptDns": true,
+    "logLevel": 1,
+    "autoStartOnBoot": true,
+    "enabled": false
+},
+  "rules": {
+    "com.android.chrome": {
+        "packageName": "com.android.chrome",
+        "enabled": true,
+        "blocked": false,
+        "download": {
+            "value": 2,
+            "unit": "MB_S",
+            "enabled": true
+        },
+        "upload": {
+            "value": 512,
+            "unit": "KB_S",
+            "enabled": true
+        },
+        "throttleMode": "ALWAYS",
+        "activeNetworks": [],
+        "schedule": null,
+        "extraConditions": [],
+        "warnThresholdPercent": 80,
+        "note": ""
+    },
+    "com.netflix.mediaclient": {
+        "packageName": "com.netflix.mediaclient",
+        "enabled": true,
+        "blocked": false,
+        "download": {
+            "value": 1500,
+            "unit": "KBPS",
+            "enabled": true
+        },
+        "upload": {
+            "value": 0,
+            "unit": "MBPS",
+            "enabled": false
+        },
+        "throttleMode": "ALWAYS",
+        "activeNetworks": [
+            "MOBILE"
+        ],
+        "schedule": null,
+        "extraConditions": [],
+        "warnThresholdPercent": null,
+        "note": ""
+    },
+    "com.google.android.apps.photos": {
+        "packageName": "com.google.android.apps.photos",
+        "enabled": true,
+        "blocked": false,
+        "download": {
+            "value": 0,
+            "unit": "MBPS",
+            "enabled": false
+        },
+        "upload": {
+            "value": 1,
+            "unit": "MB_S",
+            "enabled": true
+        },
+        "throttleMode": "BACKGROUND_ONLY",
+        "activeNetworks": [],
+        "schedule": {
+            "startMinute": 1320,
+            "endMinute": 360,
+            "days": []
+        },
+        "extraConditions": [
+            {
+                "type": "charging",
+                "charging": true
+            }
+        ],
+        "warnThresholdPercent": null,
+        "note": ""
+    },
+    "com.example.distraction": {
+        "packageName": "com.example.distraction",
+        "enabled": true,
+        "blocked": true,
+        "download": {
+            "value": 0,
+            "unit": "MBPS",
+            "enabled": false
+        },
+        "upload": {
+            "value": 0,
+            "unit": "MBPS",
+            "enabled": false
+        },
+        "throttleMode": "ALWAYS",
+        "activeNetworks": [],
+        "schedule": {
+            "startMinute": 540,
+            "endMinute": 1020,
+            "days": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "extraConditions": [],
+        "warnThresholdPercent": null,
+        "note": ""
+    }
+}
+}
