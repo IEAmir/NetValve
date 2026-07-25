@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Root-free, local-VPN per-app traffic controller for Android.**
+**Root-free, local-VPN per-app traffic controller for Android (Bandwidth Controller).**
 
 Shape, block, schedule and monitor network traffic of individual apps using Android's `VpnService`.
 No root. No remote server. No trackers.
