@@ -84,6 +84,31 @@ This is closer to a **traffic shaping router** (like `tc` on Linux) than a firew
 ...NetValve is built for that.
 
 ---
+## 🚀 Real-world Use Cases
+
+NetValve can be used in many practical scenarios:
+
+### 📺 Limit video streaming bandwidth
+Reduce the bandwidth available to YouTube, Netflix, or other streaming apps so they don't consume your entire connection.
+
+### 📤 Limit upload speed
+Control the upload bandwidth of apps such as Telegram, WhatsApp, or cloud backup services without blocking them completely.
+
+### 🎮 Throttle background games
+Keep online games connected while preventing them from consuming bandwidth when running in the background.
+
+### 📶 Control mobile data usage
+Allow full speed on Wi-Fi while limiting or blocking selected apps on cellular networks.
+
+### 👨‍👩‍👧‍👦 Build parental control rules
+Restrict specific applications during school hours or bedtime using schedules and policy conditions.
+
+### 🔋 Reduce background network activity
+Lower background bandwidth to save battery and reduce unnecessary network usage.
+
+### 📊 Monitor per-app traffic
+View real-time bandwidth usage, connection counts, and traffic statistics for each application.
+
 
 ## ✨ Features
 
@@ -528,4 +553,4 @@ Found a bug or have an idea?
 - Start a GitHub Discussion
 - Contact me on Telegram: **@SClAmir**
 
-[🇮🇷 نسخه فارسی (Persian)](README.fa.md)
+[ نسخه فارسی (Persian)](README.fa.md)
