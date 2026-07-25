@@ -140,22 +140,15 @@ View real-time bandwidth usage, connection counts, and traffic statistics for ea
 
 ## 📸 Screenshots
 
-> **Note**: Screenshots will be added in `docs/screenshots/`. The app has 5 main screens:
+<p align="center">
+  <img src="docs/screenshots/Screenshot_2026-07-26-01-46-50-482_dev.netvalve.debug.jpg" width="220"/>
+  <img src="docs/screenshots/Screenshot_2026-07-26-01-49-10-205_dev.netvalve.debug.jpg" width="220"/>
+  <img src="docs/screenshots/Screenshot_2026-07-26-01-49-16-859_dev.netvalve.debug.jpg" width="220"/>
+  <img src="docs/screenshots/Screenshot_2026-07-26-01-49-32-318_dev.netvalve.debug.jpg" width="220"/>
+</p>
 
-### Dashboard
-Main control panel — start/stop tunnel, see live stats, quick app toggles.
+</p>
 
-### App Selection
-Browse installed apps, search, filter system apps, select which to control.
-
-### Per-App Detail
-Set download/upload caps (KB/s, MB/s, kbps, Mbps), block, background-only, conditions, and schedule.
-
-### Statistics
-Live/avg/peak throughput, per-app totals, connection counts, DNS stats, connect latency.
-
-### Logs
-Filter by level (DEBUG/INFO/WARNING/ERROR), search, and export.
 
 ---
 
