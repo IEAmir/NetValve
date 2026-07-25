@@ -482,10 +482,50 @@ Android provides excellent firewall applications, but very few open-source proje
 
 If you want to take control of your device's network traffic without compromising on privacy or performance, NetValve is for you.
 
+## FAQ
+
+### Does NetValve require root?
+
+No.
+
+### Does NetValve use Android VpnService?
+
+Yes.
+
+### Can NetValve limit upload speed?
+
+Yes.
+
+### Can it limit download speed?
+
+Yes.
+
+### Does it work without Magisk?
+
+Yes.
+
+### Can it replace NetGuard?
+
+Depends on your use case.
+
+### Does NetValve send traffic to external servers?
+
+No.
+
+### Does it support IPv6?
+
+Yes.
+
 ---
 
 **⭐ Star this repo if you find it useful!**
-# Have you found a bug? any opinion do you have? let me know:
-# t.me/SClAmir
+
+## Feedback & Support
+
+Found a bug or have an idea?
+
+- Open a GitHub Issue
+- Start a GitHub Discussion
+- Contact me on Telegram: **@SClAmir**
 
 [🇮🇷 نسخه فارسی (Persian)](README.fa.md)
