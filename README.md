@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Root-free, local-VPN per-app traffic controller for Android (Bandwidth Controller).**
+**Root-free Android Bandwidth Controller, Per-App Internet Speed Limiter, Traffic Shaper and Firewall using Android VpnService.**
 
 Shape, block, schedule and monitor network traffic of individual apps using Android's `VpnService`.
 No root. No remote server. No trackers.
@@ -39,7 +39,7 @@ No root. No remote server. No trackers.
 
 ## 🎯 What is NetValve?
 
-**NetValve** is a root-free Android application that creates a **local VPN tunnel** to intercept, shape, and monitor network traffic of individual apps. Unlike traditional firewalls that only **block** connections, NetValve focuses on **traffic shaping** — giving you precise control over:
+NetValve is an open-source Android bandwidth controller and per-app internet speed limiter built with Kotlin. It allows you to limit upload and download speed, shape traffic, block applications, schedule rules, and monitor network usage without root using Android VpnService. Unlike traditional firewalls that only **block** connections, NetValve focuses on **traffic shaping** — giving you precise control over:
 
 - 📊 **Per-app bandwidth limits** (download/upload)
 - 🚫 **App blocking** (cut all network access)
